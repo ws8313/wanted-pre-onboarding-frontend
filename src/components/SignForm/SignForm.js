@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useMatch, useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import instance from "../api/api";
+import instance from "../../api/api";
 
 const SignForm = () => {
   const [email, setEmail] = useState("");
