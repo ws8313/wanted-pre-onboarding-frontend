@@ -165,7 +165,7 @@ const SignForm = () => {
 
 const Wrapper = styled.div`
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -195,16 +195,18 @@ const SignFormInput = styled.input`
 `;
 
 const SignFormButton = styled.button`
-  width: 100%;
-  padding: 15px;
+  width: 30%;
+  padding: 10px;
   border-radius: 20px;
   margin: 20px 0 10px 0;
   font-size: 15px;
   text-align: center;
-  color: black;
+  color: white;
+  background-color: black;
   cursor: pointer;
 
   &:disabled {
+    background-color: gray;
     cursor: default;
   }
 `;
