@@ -18,7 +18,6 @@ const TodoList = ({ todos, state, setState }) => {
       .catch((error) => {
         console.log(error);
       });
-    console.log(todo);
   };
 
   const changeHandler = (e) => {
